@@ -1,4 +1,4 @@
-package com.example.composepagingunsplash.model
+package com.example.composepagingunsplash.data.models.remote
 
 import androidx.room.Embedded
 import androidx.room.Entity

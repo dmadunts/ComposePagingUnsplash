@@ -1,7 +1,7 @@
-package com.example.composepagingunsplash.data.remote
+package com.example.composepagingunsplash.data.apis
 
 import com.example.composepagingunsplash.BuildConfig
-import com.example.composepagingunsplash.model.UnsplashImage
+import com.example.composepagingunsplash.data.models.remote.UnsplashImage
 import retrofit2.http.GET
 import retrofit2.http.Headers
 import retrofit2.http.Query
