@@ -10,10 +10,9 @@ import com.example.composepagingunsplash.data.database.UnsplashDatabase
 import com.example.composepagingunsplash.data.models.remote.UnsplashImage
 import com.example.composepagingunsplash.data.models.remote.UnsplashRemoteKeys
 import com.example.composepagingunsplash.utils.Constants.ITEMS_PER_PAGE
-import javax.inject.Inject
 
 @ExperimentalPagingApi
-class UnsplashRemoteMediator @Inject constructor(
+class UnsplashRemoteMediator(
     private val api: UnsplashApi,
     private val database: UnsplashDatabase
 ) : RemoteMediator<Int, UnsplashImage>() {
