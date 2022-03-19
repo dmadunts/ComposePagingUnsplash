@@ -6,6 +6,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.paging.ExperimentalPagingApi
 import com.example.composepagingunsplash.ui.screens.home.HomeScreen
+import com.example.composepagingunsplash.ui.screens.search.SearchScreen
 
 @ExperimentalPagingApi
 @Composable
@@ -15,7 +16,7 @@ fun SetupGraph(navController: NavHostController) {
             HomeScreen(navController)
         }
         composable(Screen.Search.route) {
-//            SearchScreen(navController)
+            SearchScreen(navController)
         }
     }
 }

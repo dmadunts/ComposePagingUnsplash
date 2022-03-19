@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ComposePagingUnsplash</string>
+    <string name="Search">Search…</string>
+    <string name="TextField">Text Field</string>
+    <string name="SearchWidget">Search Widget</string>
+    <string name="SearchIcon">Search Icon</string>
+    <string name="CloseButton">Close Button</string>
+    <string name="CloseIcon">Close Icon</string>
 </resources>
